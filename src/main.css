@@ -117,7 +117,6 @@ header {
   background-size: cover;
   height: 100vh;
   min-height: 56.25rem;
-  width: 90%;
   padding: 0 5%;
 }
 
@@ -245,6 +244,19 @@ header .nav-mobile ul li a:hover {
           box-shadow: 0px 0px 5px rgba(189, 189, 189, 0.75);
 }
 
+#movies img, #movie img {
+  width: 100%;
+}
+
+#movies .col-md-3 .card-title {
+  min-height: 50px;
+  padding-top: 1em;
+}
+
+#movies .col-md-3 .card {
+  height: 290px;
+}
+
 .movie-posters {
   width: 90%;
   padding: 0 5%;
@@ -291,9 +303,14 @@ header .nav-mobile ul li a:hover {
 }
 
 footer {
-  width: 90%;
   padding: 0 5%;
   background: #111;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 footer a {
@@ -302,6 +319,7 @@ footer a {
 
 footer ul {
   float: right;
+  margin: 0;
 }
 
 footer ul li {
@@ -315,7 +333,7 @@ footer .copy a, footer .copy p {
 }
 
 footer .copy p {
-  margin-left: 20px;
+  margin: 0 0 0 20px;
   font-weight: 600;
   color: white;
 }

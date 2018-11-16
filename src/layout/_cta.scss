@@ -10,9 +10,10 @@
 }
 
 footer {
-  width: 90%;
   padding: 0 5%;
   background: #111;
+  display: flex;
+  align-items: center;
 
   a {
     color: white;
@@ -20,6 +21,7 @@ footer {
 
   ul {
     float: right;
+    margin: 0;
 
     li {
       display: inline-block;
@@ -35,7 +37,7 @@ footer {
     }
 
     p {
-      margin-left: 20px;
+      margin: 0 0 0 20px;
       font-weight: 600;
       color: white;
 
