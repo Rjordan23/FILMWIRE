@@ -1,0 +1,45 @@
+.cta {
+  text-align: center;
+  width: 60%;
+  margin: 0 auto 200px auto;
+
+  h1 {
+    margin-bottom: 40px;
+  }
+}
+
+footer {
+  width: 90%;
+  padding: 0 5%;
+
+  a {
+    color: var(--clr-black);
+  }
+
+  ul {
+    float: right;
+
+    li {
+      display: inline-block;
+      margin-left: 50px;
+    }
+  }
+
+  .copy {
+
+    a, p {
+      display: inline-block;
+      vertical-align: middle;
+    }
+
+    p {
+      margin-left: 20px;
+      font-weight: 600;
+    }
+  }
+
+  ul, .copy {
+    line-height: 80px;
+    display: inline-block;
+  }
+}

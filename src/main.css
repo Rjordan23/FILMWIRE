@@ -1,0 +1,388 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700,900");
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+html {
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  width: 100%;
+  background-color: white;
+  color: var(--clr-black);
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+p, li {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--clr-black);
+}
+
+.btn-white {
+  display: inline-block;
+  width: 12.5rem;
+  height: 3.75rem;
+  line-height: 3.75rem;
+  font-size: 1.25rem;
+  font-weight: 900;
+  text-align: center;
+  margin-bottom: 8.437rem;
+  background: var(--gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.btn-group {
+  position: relative;
+  z-index: 1;
+}
+
+.btn-bg-white {
+  position: absolute;
+  top: 0;
+  border-radius: 3px;
+  background-color: white;
+  display: block;
+  height: 4rem;
+  width: 12.5rem;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  z-index: -1;
+}
+
+.btn-color {
+  display: inline-block;
+  width: 12.5em;
+  height: 3.75em;
+  line-height: 3.75em;
+  text-align: center;
+  background-color: var(--gradient);
+  font-size: 1.25em;
+  font-weight: 700;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+
+.btn-orange {
+  color: var(--clr-orange);
+  font-size: 1.25em;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.logo {
+  font-weight: 500;
+  font-size: 1.562rem;
+  letter-spacing: .062rem;
+}
+
+span {
+  color: var(--clr-orange);
+}
+
+:root {
+  --clr-orange: #f83600;
+  --clr-gold: #fe8c00;
+  --clr-black: #333;
+  --gradient: linear-gradient(to right, #fe8c00, #f83600);
+}
+
+header {
+  position: relative;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(254, 140, 0, 0.5)), to(rgba(248, 54, 0, 0.7))), url("../../img/deadpool.jpg");
+  background-image: linear-gradient(to right, rgba(254, 140, 0, 0.5), rgba(248, 54, 0, 0.7)), url("../../img/deadpool.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  min-height: 56.25rem;
+  width: 90%;
+  padding: 0 5%;
+}
+
+header nav {
+  display: inline-block;
+  width: 100%;
+}
+
+header nav a {
+  color: white;
+  line-height: 6.25rem;
+}
+
+header nav ul {
+  float: right;
+}
+
+header nav ul li {
+  display: inline-block;
+  margin-left: 3.125rem;
+}
+
+header h1 {
+  color: white;
+  width: 55%;
+  margin-top: 5.625rem;
+  margin-bottom: 2.5rem;
+  text-shadow: -1px 0 1px rgba(0, 0, 0, 0.7);
+}
+
+header p {
+  color: white;
+  margin-bottom: 2.5rem;
+  opacity: .7;
+}
+
+header .ipad {
+  position: absolute;
+  width: 60%;
+  right: 0;
+  bottom: 60px;
+}
+
+header .iphone {
+  display: none;
+  position: absolute;
+  width: 40%;
+  right: 4%;
+  top: 300px;
+}
+
+header .nav-mobile {
+  display: none;
+}
+
+header .nav-mobile label {
+  position: absolute;
+  top: 2%;
+  right: 0;
+  margin: 0 2.5rem 0 0;
+  color: white;
+  font-size: 2.812rem;
+  cursor: pointer;
+}
+
+header .nav-mobile #toggle {
+  display: none;
+}
+
+header .nav-mobile #toggle:checked ~ ul {
+  display: block;
+}
+
+header .nav-mobile ul {
+  text-align: center;
+  width: 100%;
+  display: none;
+  margin: 0;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+header .nav-mobile ul li {
+  margin: 0;
+  width: 100%;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+header .nav-mobile ul li a {
+  color: var(--clr-black);
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+header .nav-mobile ul li a:hover {
+  color: white;
+}
+
+.movie-posters {
+  width: 90%;
+  padding: 0 5%;
+  margin-bottom: 10rem;
+}
+
+.movie-posters .section-title {
+  margin: 50px 0 20px 0;
+}
+
+.movie-posters .section-title h2 {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.movie-posters .section-title a {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 20px;
+}
+
+.movie-posters ul {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.movie-posters ul img {
+  width: 92%;
+  margin: 4%;
+  -webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+.cta {
+  text-align: center;
+  width: 60%;
+  margin: 0 auto 200px auto;
+}
+
+.cta h1 {
+  margin-bottom: 40px;
+}
+
+footer {
+  width: 90%;
+  padding: 0 5%;
+}
+
+footer a {
+  color: var(--clr-black);
+}
+
+footer ul {
+  float: right;
+}
+
+footer ul li {
+  display: inline-block;
+  margin-left: 50px;
+}
+
+footer .copy a, footer .copy p {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+footer .copy p {
+  margin-left: 20px;
+  font-weight: 600;
+}
+
+footer ul, footer .copy {
+  line-height: 80px;
+  display: inline-block;
+}
+
+@media (max-width: 1112px) {
+  header {
+    height: 100vh;
+    min-height: 1000px;
+  }
+  header h1 {
+    margin-top: 50px;
+    margin-bottom: 2rem;
+  }
+  header .iphone {
+    display: block;
+  }
+  .btn-white {
+    margin-bottom: 80px;
+  }
+  .cta {
+    width: 90%;
+  }
+  .ipad {
+    display: none;
+  }
+}
+
+@media (max-width: 900px) {
+  height: 100%;
+  header {
+    background-position: center center;
+  }
+  header h1 {
+    width: 70%;
+  }
+  header .iphone {
+    display: none;
+  }
+  footer ul {
+    float: none;
+    display: block;
+    text-align: center;
+  }
+  footer ul li {
+    margin: 0 25px;
+  }
+  footer .copy {
+    text-align: center;
+    display: block;
+  }
+}
+
+@media (max-width: 700px) {
+  header h1 {
+    font-size: 36px;
+  }
+  header .nav-desktop {
+    display: none;
+  }
+  header .nav-mobile {
+    display: block;
+  }
+  .movie-posters {
+    width: 90%;
+    padding: 0 5%;
+    margin-bottom: 10rem;
+  }
+  .movie-posters .section-title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .movie-posters ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .movie-posters ul li {
+    margin: 2% 0;
+  }
+  .movie-posters ul li img {
+    width: 62%;
+    display: block;
+    margin: 0 auto;
+  }
+  footer ul li {
+    display: none;
+  }
+}
+/*# sourceMappingURL=main.css.map */

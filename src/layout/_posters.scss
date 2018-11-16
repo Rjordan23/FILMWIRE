@@ -1,0 +1,33 @@
+// Start Movie Poster Section
+.movie-posters {
+  width: 90%;
+  padding: 0 5%;
+  margin-bottom: 10rem;
+
+
+  .section-title {
+    margin: 50px 0 20px 0;
+
+    h2 {
+      display: inline-block;
+      vertical-align: middle;
+    }
+
+    a {
+      display: inline-block;
+      vertical-align: middle;
+      margin-left: 20px;
+    }
+  }
+
+  ul {
+    width: 100%;
+    display: flex;
+
+    img {
+      width: 92%;
+      margin: 4%;
+      box-shadow: 0 3px 5px rgba($color: black, $alpha: .5)
+    }
+  }
+}
