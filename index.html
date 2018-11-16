@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>FILMWIRE</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" media="screen" href="src/main.css" />
+  <link rel="stylesheet" type="text/css" media="screen" href="src/main.css"/>
 </head>
 <body>
 
@@ -38,6 +38,23 @@
     <img class="iphone" src="img/iphone.png" alt="iphone playing the movie Deadpool">
   </header>
 
+  <!-- Section: Search -->
+  <section id="search" class="search">
+    <div class="search-container">
+      <h2 class="search-title" >Search for what is streaming today</h2>
+      <form action="" id="search-form">
+        <input type="text" class="search-form" id="searchText" placeholder="Search Movies...">
+      </form>
+    </div>
+  </section>
+
+  <!-- Section: Search Results -->
+  <section id="results" class="results">
+    <div id="movies" class="movies">
+    </div>
+  </section>
+
+  <!-- Section: Movie Posters -->
   <section class="movie-posters">
     <div class="section-title">
       <h2>Lorem, ipsum dolor.</h2>
@@ -58,6 +75,7 @@
     </ul>
   </section>
   
+  <!-- Section: Call to Action -->
   <section class="cta">
     <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, tenetur <span>$7.99</span> ipsa?</h1>
     <a class="btn-color" href="#"></a>
@@ -76,6 +94,15 @@
     </div>
   </footer>
 
-  <!-- <script src="css/main.js"></script> -->
+
+  <!-- Jquery -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+  <!-- Axios Client CDN -->
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+  <script src="css/main.js"></script>
+
+
 </body>
 </html>

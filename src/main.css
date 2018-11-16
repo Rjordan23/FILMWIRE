@@ -110,8 +110,8 @@ span {
 
 header {
   position: relative;
-  background-image: -webkit-gradient(linear, left top, right top, from(rgba(254, 140, 0, 0.5)), to(rgba(248, 54, 0, 0.7))), url("../../img/deadpool.jpg");
-  background-image: linear-gradient(to right, rgba(254, 140, 0, 0.5), rgba(248, 54, 0, 0.7)), url("../../img/deadpool.jpg");
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(254, 140, 0, 0.5)), to(rgba(248, 54, 0, 0.7))), url("../img/deadpool.jpg");
+  background-image: linear-gradient(to right, rgba(254, 140, 0, 0.5), rgba(248, 54, 0, 0.7)), url("../img/deadpool.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -215,6 +215,36 @@ header .nav-mobile ul li a:hover {
   color: white;
 }
 
+.search {
+  padding: 3em 0;
+  background: #111;
+}
+
+.search-container {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.search-title {
+  margin-bottom: .6em;
+  color: white;
+}
+
+.search-form {
+  width: 50%;
+  font-size: 1.25em;
+  padding: .5em 1em;
+  background-color: #FFFFFF;
+  color: #000000;
+  border-width: 1px;
+  border-color: #ccc;
+  border-style: solid;
+  border-radius: 2px;
+  -webkit-box-shadow: 0px 0px 5px rgba(189, 189, 189, 0.75);
+          box-shadow: 0px 0px 5px rgba(189, 189, 189, 0.75);
+}
+
 .movie-posters {
   width: 90%;
   padding: 0 5%;
@@ -263,10 +293,11 @@ header .nav-mobile ul li a:hover {
 footer {
   width: 90%;
   padding: 0 5%;
+  background: #111;
 }
 
 footer a {
-  color: var(--clr-black);
+  color: white;
 }
 
 footer ul {
@@ -286,6 +317,7 @@ footer .copy a, footer .copy p {
 footer .copy p {
   margin-left: 20px;
   font-weight: 600;
+  color: white;
 }
 
 footer ul, footer .copy {

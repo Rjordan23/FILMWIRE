@@ -3,6 +3,7 @@
   width: 60%;
   margin: 0 auto 200px auto;
 
+
   h1 {
     margin-bottom: 40px;
   }
@@ -11,9 +12,10 @@
 footer {
   width: 90%;
   padding: 0 5%;
+  background: #111;
 
   a {
-    color: var(--clr-black);
+    color: white;
   }
 
   ul {
@@ -35,6 +37,8 @@ footer {
     p {
       margin-left: 20px;
       font-weight: 600;
+      color: white;
+
     }
   }
 
